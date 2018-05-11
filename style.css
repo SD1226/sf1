@@ -1,3 +1,37 @@
+@font-face
+{
+	font-family:'seg';
+	src:url('fonts/segoesc.eot?#'),
+	    url('fonts/segoesc.ttf');
+}
+@font-face
+{
+	font-family:'cob';
+	src:url('fonts/CaslonOpnfaceBT.eot?#'),
+	    url('fonts/CaslonOpnfaceBT.ttf');	
+}
+@font-face
+{		
+	font-family:'com';
+	src:url('fonts/comici.eot?#'),
+	    url('fonts/comici.ttf');		
+}
+@font-face
+{		
+	font-family:'luc';
+	src:url('fonts/LHANDW.eot?#'),
+	    url('fonts/LHANDW.ttf');		
+}
+@font-face
+{		
+	font-family:'fre';
+	src:url('fonts/FREESCPT.eot?#'),
+	    url('fonts/FREESCPT.ttf');		
+}
+html
+{
+height:100%;
+}
 body
 {
 	height:100%;
@@ -75,13 +109,13 @@ a:active
 }
 #myname
 {
-	font-family:segoe script;
+	font-family:seg;
 	font-size:9vh;
 }
 h1
 {
 	font-size:6.5vh;
-	font-family:engravers mt;
+	font-family:cob;
 }
 @keyframes ann
 {
@@ -98,14 +132,14 @@ h1
 {
 	color:white;
 	font-size:4.5vh;
-	font-family:comic sans ms;
+	font-family:com;
 	animation:ann 5s;
 }
 #interest
 {
 	font-size:4.5vh;
 	color:white;
-	font-family:lucida handwriting;
+	font-family:luc;
 	animation:ann 5s;
 }
 @keyframes con
@@ -126,7 +160,7 @@ h1
 	width:80vw;
 	max-width:500px;
 	border:0.5vw double rgb(0,150,150);
-	font-family:freestyle script;
+	font-family:fre;
 	margin:auto;
 	animation:con 5s;
 }
