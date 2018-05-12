@@ -16,18 +16,6 @@
 	src:url('fonts/comici.eot?#'),
 	    url('fonts/comici.ttf');		
 }
-@font-face
-{		
-	font-family:'luc';
-	src:url('fonts/LHANDW.eot?#'),
-	    url('fonts/LHANDW.ttf');		
-}
-@font-face
-{		
-	font-family:'fre';
-	src:url('fonts/FREESCPT.eot?#'),
-	    url('fonts/FREESCPT.ttf');		
-}
 html
 {
 height:100%;
@@ -139,7 +127,7 @@ h1
 {
 	font-size:4.5vh;
 	color:white;
-	font-family:luc;
+	font-family:com;
 	animation:ann 5s;
 }
 @keyframes con
@@ -155,12 +143,11 @@ h1
 }
 #contact
 {
-	font-size:4vh;
+	font-size:3.5vh;
 	background-color:white;
 	width:80vw;
 	max-width:500px;
 	border:0.5vw double rgb(0,150,150);
-	font-family:fre;
 	margin:auto;
 	animation:con 5s;
 }
